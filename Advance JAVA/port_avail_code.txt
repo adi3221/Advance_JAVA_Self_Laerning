@@ -1,0 +1,3 @@
+netstat -aon | find "8080"
+
+taskkill /f /pid 3556

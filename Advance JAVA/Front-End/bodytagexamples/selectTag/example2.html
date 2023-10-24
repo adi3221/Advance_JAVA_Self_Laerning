@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <b>Your language of choice: </b>
+    <form action="choices.jsp" method="get">
+        <select name="language" id="">
+            <optgroup label="Server side language">
+                <option value="php">PHP</option>
+                <option value="">JSP</option>
+                <option selected value="dj">Django</option>
+                <option value="">Servlet</option>
+            </optgroup>
+            <optgroup label="Client side language">
+                <option value="">Javascript</option>
+                <option value="" >VB Script</option>
+            </optgroup>
+        
+    </select>
+        <br>
+        <input type="submit" value="save">
+    </form>
+</body>
+
+</html>
